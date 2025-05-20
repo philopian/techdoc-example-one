@@ -9,11 +9,6 @@ metadata:
     tags:
         - techdocs
         - example
-    links:
-        - url: https://admin.example-org.com
-          title: Admin Dashboard
-          icon: dashboard
-          type: admin-dashboard
 spec:
     type: service
     lifecycle: production

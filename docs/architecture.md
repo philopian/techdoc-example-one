@@ -1,5 +1,3 @@
-# This file outlines the architecture of the project. It includes diagrams, descriptions of components, and how they interact with each other.
-
 # Project Architecture
 
 ## Overview

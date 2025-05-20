@@ -1,5 +1,3 @@
-# filepath: /Users/philopian/Developer/_SANDBOX_/_BACKSTAGE_/techdoc-example-one/docs/index.md
-
 # Project Overview
 
 Welcome to the TechDocs project! This documentation serves as a comprehensive guide to understanding and utilizing the project effectively.
