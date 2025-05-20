@@ -1,0 +1,21 @@
+site_name: TechDocs Example Project
+nav:
+  - Home: index.md
+  - Usage: usage.md
+  - Architecture: architecture.md
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - def_list
+  - md_in_html
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/philopian/techdoc-example-one
+  logo: assets/images/diagram.png
