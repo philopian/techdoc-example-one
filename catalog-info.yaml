@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: techdocs-example-one
-    description: TechDoc example one
     annotations:
         backstage.io/techdocs-ref: dir:.
         github.com/project-slug: pep8speaks-org/pep8speaks
@@ -11,8 +10,8 @@ metadata:
         - example
 spec:
     type: service
-    lifecycle: production
-    owner: idpadmins
+    lifecycle: test
+    owner: any
     system: project-x
 
 ---
