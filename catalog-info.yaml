@@ -1,18 +1,25 @@
-apiVersion: backstage.io/v1beta3
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: techdoc-example-one
-  description: A sample project demonstrating Backstage TechDocs integration.
+  description: |
+    A sample project demonstrating Backstage TechDocs integration.
+  links:
+    - title: Docs Home
+      url: ./docs/index.md
+    - title: Architecture
+      url: ./docs/architecture.md
+    - title: Usage
+      url: ./docs/usage.md
+    - title: Diagram Image
+      url: ./docs/assets/images/diagram.png
+  annotations:
+    github.com/project-slug: techdoc-example-one/techdoc-example-one
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
   tags:
     - documentation
 spec:
   type: service
-  lifecycle: production
   owner: team@example.com
-  providesApis:
-    - api.example.com
-  consumesApis:
-    - api.example.com
-  documentation:
-    type: techdocs
-    path: ./docs/index.md
+  lifecycle: production
